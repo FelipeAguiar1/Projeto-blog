@@ -1,0 +1,15 @@
+* {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(219, 221, 207, 1);
+    color: #666666;
+}
+
+body, input, textarea, button {
+    font-family: 'Rajdhani', sans-serif;
+    font: 400 5rem;
+}

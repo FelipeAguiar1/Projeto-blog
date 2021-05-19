@@ -1,0 +1,61 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 266px;
+    height: 690px;
+    background-color: #A0C285;
+}
+
+.menu header {
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu header div > p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.menu header > p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-left: 40px;
+}
+
+.menu footer {
+    height: 250px;
+}
+
+.menu footer > div {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu footer p {
+    margin: 0;
+    line-height: 68px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu > div {
+    height: 4px;
+    border-radius: 4px;
+    background: rgba(219, 221, 207, 1);
+}
+
+.menu input {
+    height: 25px;
+    border-radius: 4px;
+    border: 0;
+    background: rgba(219, 221, 207, 1);
+}
