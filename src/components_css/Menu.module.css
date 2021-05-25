@@ -1,6 +1,8 @@
 .menu {
     display: flex;
     flex-direction: column;
+    float: left;
+    position: relative;
     width: 266px;
     height: 690px;
     background-color: #A0C285;
@@ -35,6 +37,8 @@
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 20px;
     font-weight: bold;
+    margin: 0 auto;
+    margin-top: -40px;
 }
 
 .menu footer p {
@@ -51,6 +55,15 @@
     height: 4px;
     border-radius: 4px;
     background: rgba(219, 221, 207, 1);
+}
+
+.menu i {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    float: left;
+    right: -206px;
+    top: -62px;
 }
 
 .menu input {

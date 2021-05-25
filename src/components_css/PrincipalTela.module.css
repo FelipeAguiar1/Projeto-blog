@@ -1,0 +1,15 @@
+.PrincipalTela {
+    width: 1014px;
+    height: 690px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    float: right;
+}
+
+.PrincipalTela div {
+    width: 450px;
+    height: 330px;
+    background: #fff;
+    display: flex;
+}

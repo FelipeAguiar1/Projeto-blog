@@ -18,7 +18,8 @@ export function Menu() {
                 </div>
             </footer>
             <div style={{width: '85%'}}/>
-            <input type="search" placeholder="    Pesquisar"/>
+            <input type="search" placeholder="    Pesquisar" />
+            <i className={"fa fa-search"}></i>
         </div>
     )
 }
