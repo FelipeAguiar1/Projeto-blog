@@ -5,11 +5,29 @@
     position: relative;
     flex-direction: column;
     float: right;
+    margin: 0;
+}
+
+.PrincipalTela section {
+    width: 980px;
+    height: 380px;
+    display: flex;
+    margin: 0;
 }
 
 .PrincipalTela div {
+    height: 335px;
     width: 450px;
-    height: 330px;
-    background: #fff;
-    display: flex;
+    background-color: aliceblue;
+    margin-top: 0;
+}
+
+.PrincipalTela img {
+    width: 410px;
+    height: 200px;
+}
+
+.PrincipalTela a {
+    text-decoration: none;
+    color: black;
 }
